@@ -175,6 +175,26 @@ header, .nav-menu, .hero-details{
     color: #333;
     font-family: 'Miniver', cursive;
 }
+.search-bar-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+#searchBar {
+  padding: 10px 16px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  width: 250px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#searchBar:focus {
+  border-color: orange;
+}
+
 
 .state-card-grid {
     display: grid;
